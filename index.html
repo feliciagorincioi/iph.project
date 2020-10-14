@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <title>IPHONE</title>
+  </head>
+
+  <body>
+    <div class="bg"></div>
+    <p>Introduceti parola</p>
+    <div class="btnn">
+      <button onclick="fn(1)" class="btn1">1</button>
+      <button onclick="fn(2)" class="btn2">
+        2
+        <p>A B C</p>
+      </button>
+      <button onclick="fn(3)" class="btn3">
+        3
+        <p>D E F</p>
+      </button>
+      <button onclick="fn(4)" class="btn4">
+        4
+        <p>G H I</p>
+      </button>
+      <button onclick="fn(5)" class="btn5">
+        5
+        <p>J K L</p>
+      </button>
+      <button onclick="fn(6)" class="btn6">
+        6
+        <p>M N O</p>
+      </button>
+      <button onclick="fn(7)" class="btn7">
+        7
+        <p>P Q R S</p>
+      </button>
+      <button onclick="fn(8)" class="btn8">
+        8
+        <p>T U V</p>
+      </button>
+      <button onclick="fn(9)" class="btn9">
+        9
+        <p>W X Y Z</p>
+      </button>
+      <button onclick="fn(0)" class="btn10">0</button>
+    </div>
+
+    <div class="container">
+      <form action="ind2.html">
+        <label for="psw"></label>
+        <input
+          type="password"
+          id="psw"
+          name="psw"
+          pattern="([0-9]){4}"
+          title="Must contain 4 numbers"
+          required
+        />
+
+        <input type="submit" value="Enter" />
+      </form>
+    </div>
+
+    <script>
+      var myInput = document.getElementById("psw");
+      var number = document.getElementById("number");
+      var length = document.getElementById("length");
+
+      // When the user starts to type something inside the password field
+      // Validate numbers
+      var numbers = /[0-9]/g;
+      if (myInput.value.match(numbers)) {
+        number.classList.remove("invalid");
+        number.classList.add("valid");
+      } else {
+        number.classList.remove("valid");
+        number.classList.add("invalid");
+      }
+
+      // Validate length
+      if ((myInput.value.length = 4)) {
+        length.classList.remove("invalid");
+        length.classList.add("valid");
+      } else {
+        length.classList.remove("valid");
+        length.classList.add("invalid");
+      }
+
+      function fn(x) {
+        document.getElementById("psw").value += 1;
+      }
+    </script>
+  </body>
+</html>

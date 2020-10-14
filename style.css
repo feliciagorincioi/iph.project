@@ -1,0 +1,248 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("lightning.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: blur(10px); /* Safari 6.0 - 9.0 */
+  filter: blur(10px);
+}
+
+.btn1 {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(150, 153, 160);
+  color: white;
+  font-size: 18px;
+  padding: 28px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.btn2 {
+  position: absolute;
+  top: 40%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(150, 153, 160);
+  color: white;
+  font-size: 18px;
+  padding: 28px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.btn2 p {
+  font-size: 12px;
+  position: absolute;
+  top: 35px;
+  left: 21px;
+}
+
+.btn3 {
+  position: absolute;
+  top: 40%;
+  left: 56%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(150, 153, 160);
+  color: white;
+  font-size: 18px;
+  padding: 28px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.btn3 p {
+  font-size: 12px;
+  position: absolute;
+  top: 35px;
+  left: 21px;
+}
+
+.btn4 {
+  position: absolute;
+  top: 52%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(150, 153, 160);
+  color: white;
+  font-size: 18px;
+  padding: 28px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.btn4 p {
+  font-size: 12px;
+  position: absolute;
+  top: 35px;
+  left: 21px;
+}
+
+.btn5 {
+  position: absolute;
+  top: 52%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(150, 153, 160);
+  color: white;
+  font-size: 18px;
+  padding: 28px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.btn5 p {
+  font-size: 12px;
+  position: absolute;
+  top: 35px;
+  left: 21px;
+}
+
+.btn6 {
+  position: absolute;
+  top: 52%;
+  left: 56%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(150, 153, 160);
+  color: white;
+  font-size: 18px;
+  padding: 28px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.btn6 p {
+  font-size: 12px;
+  position: absolute;
+  top: 35px;
+  left: 21px;
+}
+
+.btn7 {
+  position: absolute;
+  top: 64%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(150, 153, 160);
+  color: white;
+  font-size: 18px;
+  padding: 28px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.btn7 p {
+  font-size: 12px;
+  position: absolute;
+  top: 35px;
+  left: 15px;
+}
+
+.btn8 {
+  position: absolute;
+  top: 64%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(150, 153, 160);
+  color: white;
+  font-size: 18px;
+  padding: 28px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.btn8 p {
+  font-size: 12px;
+  position: absolute;
+  top: 35px;
+  left: 21px;
+}
+.btn9 {
+  position: absolute;
+  top: 64%;
+  left: 56%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(150, 153, 160);
+  color: white;
+  font-size: 18px;
+  padding: 28px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.btn9 p {
+  font-size: 12px;
+  position: absolute;
+  top: 35px;
+  left: 15px;
+}
+
+.btn10 {
+  position: absolute;
+  top: 76%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(150, 153, 160);
+  color: white;
+  font-size: 18px;
+  padding: 28px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+}
+
+p {
+  font-family: monospace;
+  font-size: 19px;
+  position: absolute;
+  top: 24%;
+  left: 41%;
+  color: white;
+}
+
+.container {
+  position: absolute;
+  top: 29%;
+  left: 41%;
+}
